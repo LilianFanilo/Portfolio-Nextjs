@@ -3,6 +3,7 @@
 
 import IntroSection from "@/components/IntroSection";
 import { Navbar } from "@/components/Navbar";
+import { ProjectSection } from "@/components/ProjectSection";
 import StudySection from "@/components/StudySection";
 import styled from "styled-components";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <MainContainer>
           <IntroSection/>
           <StudySection/>
+          <ProjectSection/>
         </MainContainer>
       </PageContainer>
     </>
