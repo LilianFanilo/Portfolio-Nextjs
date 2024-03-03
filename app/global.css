@@ -1,41 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter Tight", sans-serif;
+  font-family: "Inter Tight", sans-serif;
 }
 
 h1 {
-    font-size: 32px;
-    font-weight: 300;
+  font-size: 32px;
+  font-weight: 300;
+
+  @media (min-width: 1024px) {
+    font-size: 48px;
+  }
 }
 
 h2 {
-    font-size: 22px;
-    font-weight: 400;
-    font-style: italic;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+
+  @media (min-width: 1024px) {
+    font-size: 32px;
+  }
 }
 
 h3 {
-    font-size: 16px;
-    font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
 }
 
 p {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: justify;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: justify;
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
