@@ -2,6 +2,7 @@
 
 import IntroSection from "@/components/IntroSection";
 import { Navbar } from "@/components/Navbar";
+import { Opquast } from "@/components/Opquast";
 import { ProgressBar } from "@/components/ProgressBar";
 import { ProjectSection } from "@/components/ProjectSection";
 import StudySection from "@/components/StudySection";
@@ -42,6 +43,7 @@ export default function Home() {
         <MainContainer className="mainContentGSAP">
           <IntroSection />
           <StudySection />
+          <Opquast />
           <ProjectSection />
         </MainContainer>
       </PageContainer>

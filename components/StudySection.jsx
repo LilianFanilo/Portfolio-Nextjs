@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Opquast } from "./Opquast";
 
 export const TextContainer = styled.div`
   display: flex;
@@ -30,7 +29,6 @@ const StudySection = () => {
           Baccalauréat général spécialité Mathématiques et Arts Plastiques –
           mention Bien, Lycée Jean Renoir Bondy.
         </p>
-        <Opquast />
       </TextContainer>
     </>
   );
