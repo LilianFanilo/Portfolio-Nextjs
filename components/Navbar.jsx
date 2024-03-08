@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export const Nav = styled.nav`
+const Nav = styled.nav`
   grid-column: 1/7;
 
   @media (min-width: 1024px) {
@@ -16,18 +16,18 @@ export const Nav = styled.nav`
   }
 `;
 
-export const TitleContainer = styled.div`
+const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 60px;
 `;
 
-export const H1 = styled.h1`
+const H1 = styled.h1`
   display: flex;
   flex-direction: column;
 `;
 
-export const H1_Subtitle = styled.span`
+const H1_Subtitle = styled.span`
   font-size: 16px;
   font-weight: 200;
 
@@ -36,8 +36,9 @@ export const H1_Subtitle = styled.span`
   }
 `;
 
-export const NavLink = styled.li`
+const NavLink = styled.li`
   position: relative;
+  width: fit-content;
   list-style: none;
   font-size: 16px;
   font-weight: bold;

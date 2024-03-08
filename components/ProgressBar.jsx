@@ -7,11 +7,13 @@ import styled from "styled-components";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ProgressBarGsap = styled.progress`
-  position: absolute;
+const ProgressBarGsapContainer = styled.div`
+  position: fixed;
+  right: 0;
   top: 50%;
-  right: -3.5%;
-  transform: rotate(90deg);
+`;
+
+const ProgressBarGsap = styled.progress`
   -webkit-appearance: none;
   appearance: none;
   height: 10px;
@@ -46,8 +48,8 @@ export const ProgressBar = () => {
   );
 
   return (
-    <div ref={progressbar}>
+    <ProgressBarGsapContainer ref={progressbar}>
       <ProgressBarGsap max="100" value="0"></ProgressBarGsap>
-    </div>
+    </ProgressBarGsapContainer>
   );
 };

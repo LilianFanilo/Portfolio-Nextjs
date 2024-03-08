@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export const TextContainer = styled.div`
+const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 10px;

@@ -40,14 +40,9 @@ export default function Home() {
     <>
       <PageContainer>
         <Navbar />
-        <MainContainer className="mainContentGSAP">
-          <IntroSection />
-          <StudySection />
-          <Opquast />
-          <ProjectSection />
-        </MainContainer>
-        <ProgressBar />
+        <MainContainer className="mainContentGSAP">test</MainContainer>
       </PageContainer>
+      <ProgressBar />
     </>
   );
 }

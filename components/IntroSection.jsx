@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { SkillList } from "./SkillList";
 
-export const TextContainer = styled.div`
+const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 `;
 
-export const ListsContainer = styled.div`
+const ListsContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 35px;

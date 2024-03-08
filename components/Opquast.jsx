@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 
-export const OpquastContainer = styled.div`
+const OpquastContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 20px;
 `;
 
-export const OpquastImg = styled.img`
+const OpquastImg = styled.img`
   grid-column: 1 / 3;
 `;
 
-export const OpquastTextContainer = styled.div`
+const OpquastTextContainer = styled.div`
   grid-column: 3 / 7;
   display: flex;
   flex-direction: column;
