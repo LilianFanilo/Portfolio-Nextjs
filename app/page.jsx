@@ -2,6 +2,7 @@
 
 import IntroSection from "@/components/IntroSection";
 import { Navbar } from "@/components/Navbar";
+import { ProgressBar } from "@/components/ProgressBar";
 import { ProjectSection } from "@/components/ProjectSection";
 import StudySection from "@/components/StudySection";
 import styled from "styled-components";
@@ -38,12 +39,13 @@ export default function Home() {
     <>
       <PageContainer>
         <Navbar />
-        <MainContainer>
+        <MainContainer className="mainContentGSAP">
           <IntroSection />
           <StudySection />
           <ProjectSection />
         </MainContainer>
       </PageContainer>
+      <ProgressBar />
     </>
   );
 }
