@@ -21,11 +21,32 @@ export const ListsContainer = styled.div`
 `;
 
 const IntroSection = () => {
-  const DevList = ["React.js", "Next.js", "PHP", "WordPress", "Git"];
+  const DevList = [
+    "HTML5",
+    "CSS3",
+    "Javascript",
+    "PHP",
+    "SQL",
+    "React.js",
+    "Next.js",
+    // "GSAP",
+    // "Three.js",
+    "Symfony",
+    "WordPress",
+    "Git",
+    // "Docker",
+  ];
 
-  const DesignList = ["React.js", "Next.js"];
+  const DesignList = [
+    "Photoshop",
+    "Illustrator",
+    "InDesign",
+    "Premiere Pro",
+    "Figma",
+    "Canva",
+  ];
 
-  const OfficeList = ["React.js", "Next.js"];
+  const OfficeList = ["Suite Office", "Notion"];
 
   return (
     <>

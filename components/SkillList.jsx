@@ -7,8 +7,10 @@ export const SkillListContainer = styled.div`
   row-gap: 5px;
 
   @media (min-width: 1024px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
     grid-column: span 2;
+    row-gap: 10px;
   }
 `;
 

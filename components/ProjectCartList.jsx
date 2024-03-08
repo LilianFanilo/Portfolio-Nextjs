@@ -48,6 +48,16 @@ export const ProjectName = styled.span`
   font-weight: 500;
 `;
 
+export const ProjectTag = styled.span`
+  font-size: 14px;
+  font-weight: 200;
+`;
+
+export const ProjectDate = styled.span`
+  font-size: 15px;
+  font-weight: 500;
+`;
+
 export const BlackLine = styled.div`
   background-color: black;
   width: 100%;
@@ -79,8 +89,8 @@ export const ProjectCart = (props) => {
       <ProjectCartContainer>
         <ProjectInfos>
           <ProjectName>{props.projectName}</ProjectName>
-          <span>{props.projectTag}</span>
-          <span>{props.projectDate}</span>
+          <ProjectTag>{props.projectTag}</ProjectTag>
+          <ProjectDate>{props.projectDate}</ProjectDate>
         </ProjectInfos>
         <BlackLine></BlackLine>
         <ImgContainer>
